@@ -364,7 +364,7 @@ export const IntroductionCard = () => {
                         </TabPanel>
                     </TabPanels>
                 </Tabs>
-                <Link to={'/Work'}>
+                <Link to={'/portfolio/Work'}>
                     <Text
                         zIndex={3}
                         fontSize={'xl'}

@@ -8,8 +8,8 @@ function App() {
     return (
         <React.Fragment>
             <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/work' element={<Work />} />
+                <Route path='/ts-portfolio' element={<Home />} />
+                <Route path='/ts-portfolio/Work' element={<Work />} />
             </Routes>
         </React.Fragment>
     );
