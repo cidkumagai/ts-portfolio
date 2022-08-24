@@ -9,7 +9,7 @@ function App() {
         <React.Fragment>
             <Routes>
                 <Route path='/ts-portfolio' element={<Home />} />
-                <Route path='/ts-portfolio/Work' element={<Work />} />
+                <Route path='/ts-portfolio/work' element={<Work />} />
             </Routes>
         </React.Fragment>
     );

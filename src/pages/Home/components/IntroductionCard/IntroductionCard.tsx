@@ -364,7 +364,7 @@ export const IntroductionCard = () => {
                         </TabPanel>
                     </TabPanels>
                 </Tabs>
-                <Link to={'/portfolio/Work'}>
+                <Link to={'/ts-portfolio/work'}>
                     <Text
                         zIndex={3}
                         fontSize={'xl'}
@@ -375,10 +375,10 @@ export const IntroductionCard = () => {
                         bgClip='text'
                         fontWeight='extrabold'
                         _before={{
-                            content: '"＜"',
+                            content: '"＞"',
                         }}
                         _after={{
-                            content: '"＞"',
+                            content: '"＜"',
                         }}
                     >
                         Past Work
