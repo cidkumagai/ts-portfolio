@@ -20,7 +20,6 @@
     "animate.css": "^4.1.1",
     "emotion-reset": "^3.0.1",
     "framer-motion": "^7.2.1",
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-confetti": "^6.1.0",
@@ -59,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
