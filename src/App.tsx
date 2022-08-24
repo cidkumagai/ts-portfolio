@@ -6,25 +6,25 @@ import { Home } from './pages/Home/Home';
 import { Skill } from './pages/Skill/Skill';
 
 function App() {
-  const [mouseX, setMouseX] = useState(0);
-  const [mouseY, setMouseY] = useState(0);
+  // const [mouseX, setMouseX] = useState(0);
+  // const [mouseY, setMouseY] = useState(0);
 
-  console.log(mouseX, mouseY)
-  useEffect(() => {
-    // @ts-ignore
-    const mouseMoveListener = (event) => {
-      setMouseX(event.clientX);
-      setMouseY(event.clientY);
-      // const stalker = document.getElementById('stalker')
-      // stalker!.style.transform = `translate(${event.clientX - 25}px, ${event.clientY - 25}px`;
-    };
+  // console.log(mouseX, mouseY)
+  // useEffect(() => {
+  //   // @ts-ignore
+  //   const mouseMoveListener = (event) => {
+  //     setMouseX(event.clientX);
+  //     setMouseY(event.clientY);
+  //     // const stalker = document.getElementById('stalker')
+  //     // stalker!.style.transform = `translate(${event.clientX - 25}px, ${event.clientY - 25}px`;
+  //   };
 
-    window.addEventListener("mousemove", mouseMoveListener);
+  //   window.addEventListener("mousemove", mouseMoveListener);
 
-    return () => {
-      window.removeEventListener("mousemove", mouseMoveListener);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("mousemove", mouseMoveListener);
+  //   };
+  // }, []);
   return (
     <React.Fragment>
     <Routes>
