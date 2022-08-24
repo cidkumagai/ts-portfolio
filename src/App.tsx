@@ -28,8 +28,8 @@ function App() {
   return (
     <React.Fragment>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/skill" element={<Skill />} />
+      <Route path="/ts-portfolio" element={<Home />} />
+      <Route path="/ts-portfolio/skill" element={<Skill />} />
     </Routes>
     </React.Fragment>
   );
