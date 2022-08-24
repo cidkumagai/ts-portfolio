@@ -60,8 +60,11 @@ export const Title = () => {
                             bgClip='text'
                             transition={'0.8s'}
                             opacity={isOpen ? 1 : 0}
+                            transform={
+                                isOpen ? 'translateX(0)' : 'translateX(40px)'
+                            }
                         >
-                            Welcome to my portfolio site!
+                            My past Works
                         </Text>
                         <Text
                             fontSize={'2xl'}

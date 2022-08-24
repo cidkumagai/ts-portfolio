@@ -1,13 +1,12 @@
 import React from 'react';
-
-import { IntroductionCard } from './components/IntroductionCard/IntroductionCard';
+import { Portfolio } from './components/Portfolio/Portfolio';
 import { Title } from './components/Title/Title';
 
-export const Home = () => {
+export const Work = () => {
     return (
         <React.Fragment>
             <Title />
-            <IntroductionCard />
+            <Portfolio />
         </React.Fragment>
     );
 };
