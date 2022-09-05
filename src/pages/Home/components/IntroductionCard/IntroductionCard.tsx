@@ -345,12 +345,6 @@ export const IntroductionCard = () => {
                                                 </Td>
                                             </Tr>
                                             <Tr>
-                                                <Td>2021.1.28</Td>
-                                                <Td>
-                                                    情報セキュリティマネジメント試験
-                                                </Td>
-                                            </Tr>
-                                            <Tr>
                                                 <Td>2021.12.21</Td>
                                                 <Td>
                                                     Oracle Certified Java
